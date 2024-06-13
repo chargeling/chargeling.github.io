@@ -1,6 +1,6 @@
-class Platformer extends Phaser.Scene {
+class Level3 extends Phaser.Scene {
     constructor() {
-        super("platformerScene");
+        super("level3Scene");
     }
 
     init() {
@@ -8,7 +8,7 @@ class Platformer extends Phaser.Scene {
         this.ACCELERATION = 250;
         this.DRAG = 1000;    // DRAG < ACCELERATION = icy slide
         this.physics.world.gravity.y = 1500;
-        this.JUMP_VELOCITY = -500;
+        this.JUMP_VELOCITY = -600;
         this.PARTICLE_VELOCITY = 50;
         this.SCALE = 2.0;
     }
@@ -17,7 +17,7 @@ class Platformer extends Phaser.Scene {
         this.goal = 0;
         // Create a new tilemap game object which uses 18x18 pixel tiles, and is
         // 45 tiles wide and 25 tiles tall.
-        this.map = this.add.tilemap("platformer-level-1", 18, 18, 90, 25);
+        this.map = this.add.tilemap("platformer-level-3", 18, 18, 60, 25);
 
         // Add a tileset to the map
         // First parameter: name we gave the tileset in Tiled
@@ -69,7 +69,7 @@ class Platformer extends Phaser.Scene {
             obj2.destroy(); // remove coin on overlap
             this.goal += 1;
                 if(this.goal == 5){
-                    this.scene.start("level2Scene");
+                    this.scene.start("level3Scene");
                 }
         });
 
@@ -104,7 +104,7 @@ class Platformer extends Phaser.Scene {
         this.cameras.main.setDeadzone(50, 50);
         this.cameras.main.setZoom(this.SCALE);
 
-        document.getElementById('description').innerHTML = '<h2>Collect enough caps to pass the game.</h2>'
+        document.getElementById('description').innerHTML = '<h2>Collect enough caps to pass the game.(16)</h2>'
 
     }
 
