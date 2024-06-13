@@ -42,7 +42,7 @@ class Level3 extends Phaser.Scene {
         this.coins = this.map.createFromObjects("Objects", {
             name: "cap",
             key: "tilemap_sheet",
-            frame: 700
+            frame: 480
         });
 
         
@@ -68,8 +68,8 @@ class Level3 extends Phaser.Scene {
         this.physics.add.overlap(my.sprite.player, this.coinGroup, (obj1, obj2) => {
             obj2.destroy(); // remove coin on overlap
             this.goal += 1;
-                if(this.goal == 5){
-                    this.scene.start("level3Scene");
+                if(this.goal == 10){
+                    this.scene.start("level4Scene");
                 }
         });
 
@@ -104,7 +104,7 @@ class Level3 extends Phaser.Scene {
         this.cameras.main.setDeadzone(50, 50);
         this.cameras.main.setZoom(this.SCALE);
 
-        document.getElementById('description').innerHTML = '<h2>Collect enough caps to pass the game.(16)</h2>'
+        document.getElementById('description').innerHTML = '<h2>Collect enough caps to pass the game.</h2>'
 
     }
 

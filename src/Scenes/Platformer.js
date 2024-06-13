@@ -68,7 +68,7 @@ class Platformer extends Phaser.Scene {
         this.physics.add.overlap(my.sprite.player, this.coinGroup, (obj1, obj2) => {
             obj2.destroy(); // remove coin on overlap
             this.goal += 1;
-                if(this.goal == 5){
+                if(this.goal == 16){
                     this.scene.start("level2Scene");
                 }
         });
