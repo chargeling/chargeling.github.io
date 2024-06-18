@@ -17,6 +17,7 @@ class Load extends Phaser.Scene {
         this.load.tilemapTiledJSON("platformer-level-3", "platformer-level-3.tmj"); 
         this.load.tilemapTiledJSON("platformer-level-4", "platformer-level-4.tmj"); 
         this.load.image("End", "End.png");
+        this.load.image('background', 'IndBack.png')
 
         // Load the tilemap as a spritesheet
         this.load.spritesheet("tilemap_sheet", "platformerPack_industrial_tilesheet.png", {

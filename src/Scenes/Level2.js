@@ -15,6 +15,7 @@ class Level2 extends Phaser.Scene {
 
     create() {
         this.goal = 0;
+        this.add.image(0, 0, 'background');
         // Create a new tilemap game object which uses 18x18 pixel tiles, and is
         // 45 tiles wide and 25 tiles tall.
         this.map = this.add.tilemap("platformer-level-2", 18, 18, 40, 90);
