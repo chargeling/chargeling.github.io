@@ -1,4 +1,12 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"json",
+         "target":"platformer-level-2.tmj"
+        }
+    },
  "height":90,
  "infinite":false,
  "layers":[
@@ -35,7 +43,7 @@
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
-            2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 8, 9, 0, 0, 0, 2,
+            2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 491, 492, 493, 494, 0, 0, 0, 2,
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
             2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,
@@ -102,9 +110,176 @@
          "width":40,
          "x":0,
          "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":2,
+         "name":"Objects",
+         "objects":[
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":1,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":223,
+                 "y":1443
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":2,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":98,
+                 "y":1350
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":3,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":585,
+                 "y":1285
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":4,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":532,
+                 "y":1181
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":5,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":423,
+                 "y":1111
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":6,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":404,
+                 "y":979
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":7,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":185,
+                 "y":844
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":8,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":602,
+                 "y":559
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":9,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":494,
+                 "y":854
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":10,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":478,
+                 "y":762
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":11,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":62,
+                 "y":936
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":12,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":127,
+                 "y":1033
+                }, 
+                {
+                 "gid":697,
+                 "height":18,
+                 "id":13,
+                 "name":"green",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":18,
+                 "x":603,
+                 "y":725
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
         }],
- "nextlayerid":2,
- "nextobjectid":1,
+ "nextlayerid":3,
+ "nextobjectid":14,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",

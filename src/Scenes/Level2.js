@@ -40,7 +40,7 @@ class Level2 extends Phaser.Scene {
         // https://newdocs.phaser.io/docs/3.80.0/focus/Phaser.Tilemaps.Tilemap-createFromObjects
 
         this.coins = this.map.createFromObjects("Objects", {
-            name: "cap",
+            name: "green",
             key: "tilemap_sheet",
             frame: 696
         });
@@ -68,7 +68,7 @@ class Level2 extends Phaser.Scene {
         this.physics.add.overlap(my.sprite.player, this.coinGroup, (obj1, obj2) => {
             obj2.destroy(); // remove coin on overlap
             this.goal += 1;
-                if(this.goal == 10){
+                if(this.goal == 9){
                     this.scene.start("level3Scene");
                 }
         });
